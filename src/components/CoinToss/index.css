@@ -1,0 +1,68 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.coin-container {
+  height: 70vh;
+  width: 25vw;
+  background-color: #ffffff;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.coin-img {
+  height: 200px;
+  width: 200px;
+}
+
+.button {
+  height: 26px;
+  width: 100px;
+  border-radius: 10px;
+  border: 0px;
+  border-width: 0px;
+  background-color: #f9d423;
+  font-family: 'Roboto';
+  font-size: 13px;
+  margin-top: 10px;
+  color: #a35200;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: 700;
+  color: #a35200;
+}
+.para {
+  font-family: 'Roboto';
+  font-weight: 600;
+  color: #334155;
+}
+.total-count-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.tail-para {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #475569;
+  font-weight: 600;
+  margin-left: 40px;
+}
